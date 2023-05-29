@@ -1,2 +1,2 @@
-b = open("Numbers.txt", "r")
+b = open("numbers.txt", "r")
 print(b.read())
