@@ -1,4 +1,5 @@
 from tkinter import *
+import tkinter
 
 hlavni = Tk()
 
@@ -9,8 +10,8 @@ startbtn = Button(hlavni, text=u"START", activebackground="red", background="gre
 startbtn.place(x = 500, y = 500)
 startbtn.pack()
 
-easyoption = Button(hlavni,text=u"EASY",activebackground="yellow", font= (None, 30), height=10, width=10 )
-easyoption.pack()
+b = Button(hlavni,text=u"EASY",activebackground="yellow", font= (None, 30), height=10, width=10,)
+b.pack(side=tk.LEFT)
 
 
 mainloop()
